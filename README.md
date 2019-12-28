@@ -1,0 +1,1 @@
+Learning how to recreate a web page using the inspect tool in Chrome
