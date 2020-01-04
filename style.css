@@ -1,9 +1,78 @@
 body {
     background-color: white;
+    padding: 0;
+    margin: 0;
 }
 
-div {
-    display: block;
+a {
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+li {
+    display: inline;
+}
+
+.leftheader {
+    float: left;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+.rightheader {
+    float: right;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+#storeheader {
+    padding-left: 10px;
+}
+
+#imagesheader {
+    padding-left: 10px;
+}
+
+.footerbox {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: 45px;
+    font-size: 10px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.leftfooter {
+    float: left;
+    padding-left: 30px;
+}
+
+.rightfooter {
+    float: right;
+    padding-right: 30px;
+}
+
+.footerspaceleft {
+    padding-left: 25px;
+}
+
+.footerspaceright {
+    padding-right: 25px;
 }
 
 .searchbar {
